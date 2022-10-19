@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PRAKTEK DESAIN WEB</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+	<div align="center">
+		<h1 id="op">Heading 1</h1>
+		<h2 id="op">Heading 2</h2>
+		<h3 id="op">Heading 3</h3>
+		<h4 id="op">Heading 4</h4>
+		<h5 id="op">Heading 5</h5>
+		<h6 id="op">Heading 6</h6>
+		<p>Tulisan html kesekian kalinya</p>
+		<br><br><br>
+		
+		<h4>Download Progress <span id="down">1</span>%</h4>
+		<button type="button" class="btn btn-outline-primary">DOWNLOAD NOW!</button>
+
+	</div>
+</body>
+<script>
+var cc = 1;
+
+var interval = setInterval(function()
+{
+    document.getElementById("down").innerHTML = ++ cc;
+	console.log( ++ cc)
+
+    if (cc > 10)
+        clearInterval(interval);
+	
+
+}, 1200);
+</script>
+<style>
+
+body{
+	 background-image: url("./bg.png");
+	 height: 100%;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+#op{
+	cursor:pointer;
+}
+#op:hover{
+	color:#fff;
+}
+
+</style>
+</html>
