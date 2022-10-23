@@ -242,3 +242,20 @@ footer div a {
     width: 100%;
   }
 }
+
+
+
+/* Responsive view for mobile */
+@media only screen and (max-width: 768px) {
+  .edukasi {
+    display: flex;
+    flex-direction: column;
+  }
+  .pengalaman ul li .pk {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
