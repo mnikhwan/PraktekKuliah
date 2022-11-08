@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./custom.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+    <title>Home | Portfolio mnikhwan</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a id="navjudul" href=""><span id="clip">.</span>/mnikhwan | Gallery</a>
+        </li>
+        <li>
+          <a href="index.html">Home</a>
+          <a href="index.html#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="home">
+        <div id="a1" class="a1">
+          <h1>Instagram Gallery</h1>
+          <table width="80%">
+            <tr>
+              <td><img class="ImgThumbnail" src="./src/3.jpg" alt="" srcset="" /></td>
+              <td><img class="ImgThumbnail" src="./src/2.jpg" alt="" srcset="" /></td>
+              <td><img class="ImgThumbnail" src="./src/1.jpg" alt="" srcset="" /></td>
+            </tr>
+
+            <tr>
+              <td><img class="ImgThumbnail" src="./src/4.jpg" alt="" srcset="" /></td>
+              <td><img class="ImgThumbnail" src="./src/6.jpg" alt="" srcset="" /></td>
+              <td><img class="ImgThumbnail" src="./src/5.jpg" alt="" srcset="" /></td>
+            </tr>
+            <tr>
+              <td><img class="ImgThumbnail" src="./src/7.jpg" alt="" srcset="" /></td>
+              <td><img class="ImgThumbnail" src="./src/9.jpg" alt="" srcset="" /></td>
+              <td><img class="ImgThumbnail" src="./src/8.jpg" alt="" srcset="" /></td>
+            </tr>
+          </table>
+
+          <!-- modal gambar -->
+          <div class="modal">
+            <span class="close">&times</span>
+            <img class="modalImage" id="img01" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <div>
+        <a href="https://instagram.com/mn.ikhwan">Instagram</a>
+        <a href="https://www.facebook.com/mnikhwan.666/">Facebook</a>
+        <a href="http://github.com/mnikhwan">Github</a>
+      </div>
+      <div>
+        <h5>
+          ©mnikhwan - 2022. <br />
+          All rights reserved.
+        </h5>
+      </div>
+    </footer>
+
+    <script>
+      // script untuk klik modal gallery
+      var modalEle = document.querySelector(".modal");
+      var modalImage = document.querySelector(".modalImage");
+      Array.from(document.querySelectorAll(".ImgThumbnail")).forEach((item) => {
+        item.addEventListener("click", (event) => {
+          modalEle.style.display = "block";
+          modalImage.src = event.target.src;
+        });
+      });
+      document.querySelector(".close").addEventListener("click", () => {
+        modalEle.style.display = "none";
+      });
+    </script>
+  </body>
+</html>

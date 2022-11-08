@@ -1,0 +1,503 @@
+* {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-family: "JetBrains Mono", monospace !important;
+  color: #fff;
+}
+body {
+  background-color: #111111;
+  scroll-behavior: smooth !important;
+}
+nav {
+  z-index: 2;
+}
+nav ul {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: space-around;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+nav ul li a:hover {
+  border-bottom: 1px solid #fff;
+}
+main {
+  padding: 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+main .home {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+main .home .a1 {
+  padding-left: 13rem;
+  padding-right: 10rem;
+  scroll-margin-top: 50px;
+}
+main .home .a1 h1 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+main .home .a2 {
+  padding-right: 13rem;
+}
+.a2 img {
+  width: 200px;
+  border-radius: 100%;
+  filter: grayscale(0.2);
+}
+/* custom alink effect */
+.l1 {
+  background-color: rgba(228, 228, 228, 0.4);
+  padding-left: 0.3rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.l1:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #f5900b;
+}
+
+/* Ending alink effect */
+#clip {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+#cv {
+  margin-top: 2rem;
+  padding-left: 19rem;
+  padding-right: 19rem;
+}
+
+#cv h1 {
+  margin-bottom: 1rem;
+}
+.cvbody {
+  margin-top: 2rem;
+}
+.edukasi {
+  display: flex;
+  flex-direction: row;
+}
+.edu1 {
+  display: flex;
+
+  border: 1px solid gray;
+  border-radius: 0.4rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: space-around;
+  margin: 0.2rem;
+  width: 50%;
+}
+.edu1 .logo1 {
+  margin-right: 0.7rem;
+}
+.edu1 .logo1 img {
+  width: 70px;
+}
+.edu1 h1 {
+  font-size: medium;
+}
+.edu1 .judul p {
+  color: rgb(214, 214, 214);
+}
+.home table tr td img {
+  width: 250px;
+  margin: 0.2rem;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+  border: #fff solid 1px;
+  border-radius: 4px;
+}
+.home table tr td img:hover {
+  transform: scale(1.3);
+  box-shadow: 0 20px 30px rgba(255, 255, 255, 0.151);
+}
+.pengalaman ul li .pk {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.pengalaman ul li .pk p {
+  color: rgb(240, 240, 240);
+}
+.pengalaman ul li .pk .pkiri ul {
+  padding-left: 1.5rem;
+}
+.pengalaman ul li .pk .pkiri ul li {
+  color: rgb(204, 204, 204);
+  font-size: medium;
+}
+
+.skill ul li .pk {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.skill ul li .pk .pkiri ul {
+  padding-top: 0.3rem;
+  padding-left: 1.5rem;
+}
+.contact .c1 {
+  display: flex;
+}
+.contact .c1 .c2 {
+  margin-right: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: #fff solid 1px;
+}
+.contact .c1 .c2 a {
+  text-decoration: none;
+}
+#spotifymusic {
+  display: flex;
+  margin-top: 2rem;
+  padding-left: 19rem;
+  padding-right: 19rem;
+}
+#spotifymusic svg {
+  margin-right: 1rem;
+}
+#spotifymusic .spotifyin {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+#joz {
+  width: 55%;
+}
+footer {
+  margin-top: 5rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+}
+footer div a {
+  padding: 0.2rem;
+  text-decoration: none;
+}
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+.ImgThumbnail {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  height: 250px;
+  width: 250px;
+}
+.ImgThumbnail:nth-of-type(1) {
+  margin-left: 20%;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 3;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.modalImage {
+  margin: auto;
+  display: block;
+  width: 35%;
+  max-width: 700px;
+}
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+  color: rgb(126, 126, 126);
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+  .modalImage {
+    width: 100%;
+  }
+}
+
+/* ... */
+/* ...... */
+/* ......... */
+/* RESPONSIVE VIEW UNTUK VERSI MOBILE */
+/* ......... */
+/* ...... */
+/* ... */
+
+@media screen and (max-width: 640px) {
+  nav {
+    z-index: 2;
+    position: fixed;
+    background-color: #111111;
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+  }
+  nav ul li {
+    list-style-type: none;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 13px;
+  }
+  nav ul li a:hover {
+    border-bottom: 1px solid #fff;
+  }
+  main {
+    padding: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  main .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 8rem;
+    /* padding: 1rem; */
+  }
+  main .home .a1 {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    scroll-margin-top: 50px;
+    order: 2;
+  }
+  main .home .a1 h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  main .home .a2 {
+    padding-right: 1rem;
+    margin-bottom: 1.6rem;
+  }
+  .a2 img {
+    width: 130px;
+    border-radius: 100%;
+    filter: grayscale(0.2);
+  }
+  /* custom alink effect */
+  .l1 {
+    background-color: rgba(228, 228, 228, 0.4);
+    padding-left: 0.3rem;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .l1:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #f5900b;
+  }
+  #test {
+    margin-top: 10rem;
+  }
+  /* Ending alink effect */
+  #clip {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
+  #cv {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  #cv h1 {
+    margin-bottom: 1rem;
+  }
+  .cvbody {
+    margin-top: 2rem;
+  }
+  .edukasi {
+    display: flex;
+    flex-direction: column;
+  }
+  .edu1 {
+    display: flex;
+
+    border: 1px solid gray;
+    border-radius: 0.4rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+    margin: 0.2rem;
+    width: 50%;
+  }
+  .edu1 .logo1 {
+    margin-right: 0.7rem;
+  }
+  .edu1 .logo1 img {
+    width: 70px;
+  }
+  .edu1 h1 {
+    font-size: medium;
+  }
+  .edu1 .judul p {
+    color: rgb(214, 214, 214);
+  }
+  /* .home table {
+    margin: auto;
+  } */
+  .home table tr td img {
+    width: 120px;
+    height: 120px;
+    margin: 0.2rem;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+    border: #fff solid 1px;
+    border-radius: 4px;
+  }
+  .home table tr td img:hover {
+    transform: scale(1.3);
+    box-shadow: 0 20px 30px rgba(255, 255, 255, 0.151);
+  }
+  .pengalaman ul li .pk {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .pengalaman ul li .pk p {
+    color: rgb(240, 240, 240);
+  }
+  .pengalaman ul li .pk .pkiri ul {
+    padding-left: 1.5rem;
+  }
+  .pengalaman ul li .pk .pkiri ul li {
+    color: rgb(204, 204, 204);
+    font-size: medium;
+  }
+
+  .skill ul li .pk {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .skill ul li .pk .pkiri ul {
+    padding-top: 0.3rem;
+    padding-left: 1.5rem;
+  }
+  .contact .c1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .contact .c1 .c2 {
+    margin-right: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: #fff solid 1px;
+  }
+  .contact .c1 .c2 a {
+    text-decoration: none;
+  }
+  #spotifymusic {
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  #spotifymusic svg {
+    margin-right: 1rem;
+  }
+  #spotifymusic .spotifyin {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  #joz {
+    width: 85%;
+  }
+
+  footer {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+  footer div {
+    display: flex;
+    flex-direction: column;
+  }
+  footer div a {
+    padding: 0.2rem;
+    text-decoration: none;
+  }
+}
