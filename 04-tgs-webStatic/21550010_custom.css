@@ -1,0 +1,744 @@
+
+
+
+
+/* 
+    *****
+    **********
+    Muhammad Nurul Ikhwan | 21550010 | PTI
+    **********
+    ***** 
+*/
+
+
+
+
+
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/* Reset Margin padding */
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+/* Css */
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: #E8E8E8;
+
+    font-family: 'Montserrat', sans-serif;
+}
+body svg{
+    position: absolute;
+    top: 33rem;
+}
+nav{
+    position: fixed;
+    width: 100vw;
+    z-index: 30;
+    color: #f0f8ff;
+    background-color: #145374;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+nav div{
+    z-index: 30;
+    gap: 12px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+nav div a{
+    text-decoration: none;
+    color: #fff;
+}
+nav div a:hover{
+    color: rgb(219, 219, 219);
+}
+nav div img{
+    height:75px;
+    padding: 1rem;
+}
+nav ul{
+    z-index: 30;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    z-index: 30;
+    list-style-type: none;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+nav ul li a{
+    z-index: 30;
+    color: aliceblue;
+    text-decoration: none;
+}
+.actv{
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #fff;
+    padding-top: 3px;
+    border-radius: 50px;
+    background: linear-gradient(rgba(0, 0, 255, 0), #5588a3ce);
+    border-bottom: solid 1px rgba(192, 213, 226, 0.438);
+}
+nav ul li a:hover{
+    color: #ccc;
+    transition: ease-in-out 0.1s;
+}
+main{
+    z-index: 5;
+    background-image: url("./media/4.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    padding-bottom: 18rem;
+}
+.mn{
+    z-index: 5;
+    background-image: url("./media/6.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    padding-bottom: 18rem;
+}
+.profilgg{
+    background-color: #E8E8E8 !important;
+    background-image: none;
+   
+}
+/* 
+    *****
+    **********
+    Muhammad Nurul Ikhwan | 21550010 | PTI
+    **********
+    ***** 
+*/
+main .cover{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 12rem;
+
+}
+main .cover p{
+    width: 35rem;
+}
+
+main .cover a{
+    color: #fff;
+
+}
+main .sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+    color: #000;
+}
+main .sec2 h1{
+    z-index: 10 !important;
+    color: #000;
+    margin: auto;
+}
+main .sec2 .kart{
+    margin-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+main .sec2 .kart .kartu{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 31rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.010), 0 6px 20px 0 rgba(0, 0, 0, 0.010);
+    z-index: 10;
+}
+main .sec2 .kart .kartu h2{
+    color: #145374;
+    
+}
+main .sec2 .kart .kartu h3{
+    color: #5588A3;
+    
+}
+main .sec2 .kart .kartu p{
+    margin-top: 1rem;
+    
+}
+/*  */
+/* ..... */
+/* main page prodi */
+
+main .prodisec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    color: #000;
+}
+main .prodisec2 h1{
+    z-index: 10 !important;
+    background-color: #145374;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: #fff;
+}
+main .prodisec2 h3{
+    z-index: 10 !important;
+    background-color: #fff;
+    margin: auto;
+    
+    color: #145374;
+}
+main .prodisec2 .kart{
+    margin-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #000;
+    
+}
+main .prodisec2 .kart .karttt{
+    margin-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+main .prodisec2 .kart .karttt .kartu{
+    background-color: rgba(255, 255, 255, 0.945);
+    padding: 2rem;
+    border-radius: 20px;
+    width: 80vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.010), 0 6px 20px 0 rgba(0, 0, 0, 0.010);
+    z-index: 10;
+}
+main .prodisec2 .kart .karttt .kartu h2{
+    color: #145374;
+    
+}
+main .prodisec2 .kart .karttt .kartu h3{
+    color: #5588A3;
+    
+}
+main .prodisec2 .kart .karttt .kartu p{
+    margin-top: 1rem;
+    
+}
+main .prodisec2 .kart .karttt .kartu table{
+    border-collapse: collapse;
+}
+main .prodisec2 .kart .karttt .kartu table tr:nth-child(1){
+    background-color: #5588A3;
+    text-align: center;
+}
+main .prodisec2 .kart .karttt .kartu table tr td{
+    border: solid 1px #000;
+    padding: 0.5rem;
+}
+main .prodisec2 .kart .karttt .kartu table tr td ul{
+    list-style-position: inside;
+}
+/*  */
+/* ..... */
+/* main page GALLERY */
+
+main .galerysec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    color: #000;
+}
+main .galerysec2 h1{
+    z-index: 10 !important;
+    background-color: #145374;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+}
+main .galerysec2 h3{
+    z-index: 10 !important;
+    background-color: #fff;
+    margin: auto;
+    
+    color: #145374;
+}
+main .galerysec2 .kart{
+    margin-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #000;
+    
+}
+main .galerysec2 .kart .karttt{
+    margin-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+main .galerysec2 .kart .karttt .kartu{
+    background-color: rgba(255, 255, 255, 0.945);
+    padding: 2rem;
+    border-radius: 20px;
+    width: 80vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.010), 0 6px 20px 0 rgba(0, 0, 0, 0.010);
+    z-index: 10;
+}
+main .galerysec2 .kart .karttt .kartu h2{
+    color: #145374;
+    
+}
+main .galerysec2 .kart .karttt .kartu h3{
+    color: #5588A3;
+    
+}
+main .galerysec2 .kart .karttt .kartu p{
+    margin-top: 1rem;
+    
+}
+main .galerysec2 .kart .karttt .kartu table{
+    border-collapse: collapse;
+}
+main .galerysec2 .kart .karttt .kartu table tr td{
+    border: solid 1px #000;
+    padding: 0.5rem;
+}
+main .galerysec2 .kart .karttt .kartu table tr td img{
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+
+/* 
+    *****
+    **********
+    Muhammad Nurul Ikhwan | 21550010 | PTI
+    **********
+    ***** 
+*/
+
+/*  */
+/* ..... */
+/* main page GALLERY */
+
+main .tentangsec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    color: #000;
+}
+main .tentangsec2 h1{
+    z-index: 10 !important;
+    background-color: #145374;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+}
+main .tentangsec2 h3{
+    z-index: 10 !important;
+    background-color: #fff;
+    margin: auto;
+    
+    color: #145374;
+}
+main .tentangsec2 .kart{
+    margin-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #000;
+    
+}
+main .tentangsec2 .kart .karttt{
+    margin-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+main .tentangsec2 .kart .karttt .kartu{
+    background-color: rgba(255, 255, 255, 0.945);
+    padding: 2rem;
+    border-radius: 20px;
+    width: 80vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.010), 0 6px 20px 0 rgba(0, 0, 0, 0.010);
+    z-index: 10;
+}
+main .tentangsec2 .kart .karttt .kartu h2{
+    color: #145374;
+    
+}
+main .tentangsec2 .kart .karttt .kartu h3{
+    color: #5588A3;
+    
+}
+main .tentangsec2 .kart .karttt .kartu p{
+    margin-top: 1rem;
+    
+}
+main .tentangsec2 .kart .karttt .kartu table{
+    border-collapse: collapse;
+}
+main .tentangsec2 .kart .karttt .kartu table tr td{
+    border: solid 1px #000;
+    padding: 1rem;
+}
+main .tentangsec2 .kart .karttt .kartu table tr td p{
+    text-align: justify;
+    text-indent: 3rem;
+}
+
+main .tentangsec2 .kart .karttt .kartu table tr td .uhuy{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+main .tentangsec2 .kart .karttt .kartu table tr td .uhuys{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+main .tentangsec2 .kart .karttt .kartu table tr td .uhuys img{
+    width: 150px;
+    border-radius: 100%;
+}
+main .tentangsec2 .kart .karttt .kartu table tr td .uhuy section{
+    display: flex;
+    flex-direction: column;
+    
+}
+main .tentangsec2 .kart .karttt .kartu table tr td h4{
+    background-color: #145374;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+}
+main .tentangsec2 .kart .karttt .kartu table tr td img{
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+/*  */
+/* ..... */
+/* main page pendaftaran */
+
+main .dafsec2{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    color: #000;
+}
+main .dafsec2 h1{
+z-index: 10 !important;
+    background-color: #145374;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: #fff;
+}
+main .dafsec2 h3{
+    z-index: 10 !important;
+    background-color: #fff;
+    margin: auto;
+    
+    color: #145374;
+}
+main .dafsec2 .kart{
+    margin-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #000;
+    
+}
+main .dafsec2 .kart .karttt{
+    margin-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+main .dafsec2 .kart .karttt .kartu{
+    background-color: rgba(255, 255, 255, 0.945);
+    padding: 2rem;
+    border-radius: 20px;
+    width: 80vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.010), 0 6px 20px 0 rgba(0, 0, 0, 0.010);
+    z-index: 10;
+}
+main .dafsec2 .kart .karttt .kartu h2{
+    color: #145374;
+    
+}
+main .dafsec2 .kart .karttt .kartu h3{
+    color: #5588A3;
+    
+}
+main .dafsec2 .kart .karttt .kartu p{
+    margin-top: 1rem;
+    
+}
+main .dafsec2 .kart .karttt .kartu table{
+    border-collapse: collapse;
+}
+main .dafsec2 .kart .karttt .kartu table tr:nth-child(1){
+    background-color: #5588A3;
+    text-align: center;
+}
+main .dafsec2 .kart .karttt .kartu table tr td{
+    border: solid 1px #000;
+    padding: 0.5rem;
+}
+main .dafsec2 .kart .karttt .kartu table tr td ul{
+    list-style-position: inside;
+}
+
+main svg{
+    z-index: 1;
+    margin-top: -220px;
+
+}
+
+main .sec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+    color: #000;
+}
+main .sec3 h1{
+    z-index: 10 !important;
+    color: #000;
+    margin: auto;
+}
+main .sec3 .kart{
+    margin-top: 5rem;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+    border: solid 1px #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.010), 0 6px 20px 0 rgba(0, 0, 0, 0.010);
+    border-radius: 20px;
+}
+main .sec3 .kart .kartu{
+    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 20px;
+    width: 31rem;
+    
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .sec3 .kart .kartu:nth-of-type(1){
+    
+    background-color: #145374;
+    /* background-image: url('./media/3.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.010), 0 6px 20px 0 rgba(0, 0, 0, 0.010);
+    padding: 2rem;
+    border-radius: 20px;
+    width: 31rem;
+    
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .sec3 .kart .kartu h2{
+    margin-bottom: 0.5rem;
+    color: #fff;
+    
+}
+main .sec3 .kart .kartu .cssa{
+    color: #145374;
+    
+}
+main .sec3 .kart .kartu h3{
+    color: #5588A3;
+    
+}
+main .sec3 .kart .kartu p{
+    text-align: center;
+    margin-top: 1rem;
+    color: #292929;
+    
+}
+main .sec3 .kart .kartu p:nth-of-type(1){
+    color: #fff;
+    
+    background-color: #5588A3;
+    border-radius: 20px;
+    padding: 2rem;
+    
+}
+main .sec3 .kart .kartu ol{
+    margin-top: 1rem;
+    color: #292929;
+    
+}
+
+
+
+/* uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */
+main .home {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    
+  }
+  main .home .a1 {
+    padding-left: 13rem;
+    padding-right: 10rem;
+    scroll-margin-top: 50px;
+  }
+  main .home .a1 h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  main .home .a2 {
+    padding-right: 13rem;
+  }
+  .a2 img {
+    width: 200px;
+    border-radius: 100%;
+    filter: grayscale(0.2);
+  }
+/* uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */
+
+
+
+.tbl-awl{
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border-radius: 15px;
+    background-color: #145374;
+    width: 8rem;
+    text-decoration: none;
+    text-align: center;
+}
+.tbl-awl:hover{
+    border-radius: 15px;
+    background-color: #3a7899;
+    width: 8rem;
+    text-decoration: none;
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2.6rem;
+    padding-bottom: 2.6rem;
+    background-color: #1A374D;
+    color: #fff;
+    gap: 5rem;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+footer .ftrkiri {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+
+}
+footer .ftrkiri img{
+    width: 100px;
+
+}
+footer .ftrtngh{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+footer .ftrtngh a{
+    text-decoration: none;
+    color: #fff;
+
+}
+footer .ftrkanan p{
+    text-align: right;
+    
+}
+/* 
+    *****
+    **********
+    Muhammad Nurul Ikhwan | 21550010 | PTI
+    **********
+    ***** 
+*/
