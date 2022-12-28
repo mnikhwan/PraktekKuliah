@@ -6,3 +6,5 @@ Berikut adalah list url yang langsung mengarah ke github-pages project:
   - [UTS - UnResponsive](https://mnikhwan.github.io/PraktekKuliah/UTS/)
 - UTS Project - `[Final🔥]` Responsive Portfolio & Gallery:
   - [UTS_WEB_21550010](https://mnikhwan.github.io/PraktekKuliah/UTS_WEB_21550010)
+- Tugas Web Static Kampus - UnResponsive:
+  - [04-tgs-webStatic_21550010](https://mnikhwan.github.io/PraktekKuliah/04-tgs-webStatic/)
