@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html id="html" data-theme="dark" lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <link rel="stylesheet" href="./customs.css" /> -->
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+        <title>Home | Portfolio mnikhwan</title>
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+      </head>
+<body style="font-family: 'JetBrains Mono', monospace !important;">
+    <nav class="navbar bg-base-100 sticky top-0 z-10">
+        <div class="navbar-start ">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Homepage</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Gallery</a></li>
+              <li><a>About</a></li>
+              <li><a>Contact</a></li>
+              <li ><a class="pl-6 text-sm bg-base-200">↪Login</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-center">
+          <a class="btn btn-ghost text-lg sm:text-sm">/mnikhwan | Home</a>
+        </div>
+        <div class="navbar-end">
+            
+
+            <label class="swap swap-rotate mr-9">
+  
+              <!-- this hidden checkbox controls the state -->
+              <input type="checkbox" class="theme-controller" value="cupcake" />
+              
+              <!-- sun icon -->
+              <svg class="swap-on fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/></svg>
+              
+              <!-- moon icon -->
+              <svg class="swap-off fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"/></svg>
+              
+            </label>
+            <!-- DARK MODE MANUAL SENDIRI
+              <input id="darkmode" for="toggle" type="checkbox" onclick="doruc();" class="toggle mr-4" /> 
+            -->
+            
+          <!-- <button class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+          </button> -->
+          
+        </div>
+    
+      </nav>
+    
+      <!--  ====================HERO MAIN PAGE==================== -->
+
+      <div class="hero min-h-screen px-8 bg-base-200 pr-4 pl-4">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <img src="./src/mnikhwan-main.jpg" class="max-w-40 lg:max-w-60 grayscale mask mask-squircle shadow-2xl lg:ml-5" />
+          <div class="px-4 mr-5 sm:pb-6">
+            <h1 class="text-5xl font-bold ">mnikhwan</h1>
+            <p class="py-6 max-w-lg text-sm lg:text-justify text-pretty">Perkenalkan Nama saya Muhammad Nurul Ikhwan, atau saya biasa dipanggil Ikhwan. Saat ini saya sedang menempuh pendidikan sarjana jurusan Pendidikan Teknologi Informasi di Universitas Slamet Riyadi Surakarta. Saya memfokuskan diri dalam mempelajari pengembangan aplikasi web. Bahasa pemrograman utama yang saya jelajahi adalah Javascript.</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <!--  ==================== END HERO MAIN PAGE==================== -->
+
+      
+
+
+      <!--  ====================EDUCATION==================== -->
+
+      <div class="hero bg-base-200">
+        <div class=" flex-col lg:flex-row-reverse">
+          <div class="">
+            <h3 class="text-2xl font-bold ml-2">Education</h3>
+            <div class="hero-content  flex  flex-col lg:flex-row">
+
+              <div class="card card-side max-w-sm bg-base-100 shadow-xl flex justify-center px-5">
+                
+                <figure class=""><img class="max-w-24 max-h-24" src="./unisrilogo.png" alt="SMA Muhammadiyah 1 Karanganyar Logo" /></figure>
+                <div class="card-body">
+                  <h5 class="text-sm max-w-xl text-wrap font-bold">Universitas Slamet Riyadi</h5>
+                  <p class="text-sm">IT Education</p>
+                  <span class="badge badge-outline text-sm">2021</span>
+                </div>
+              </div>
+    
+              <div class="card card-side max-w-sm bg-base-100 shadow-xl flex justify-center px-5">
+                <figure class=""><img class="max-w-32 max-h-32" src="./muhi.png" alt="SMA Muhammadiyah 1 Karanganyar Logo" /></figure>
+                <div class="card-body">
+                  <h5 class="text-sm max-w-xl text-wrap font-bold">SMA Muhammadiyah 1 Karanganyar</h5>
+                  <p class="text-sm">Science Course</p>
+                  <span class="badge badge-outline text-sm">2018-2021</span>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+
+          
+
+          
+
+        </div>
+      </div>
+
+      <!--  ====================ENDDD EDUCATION==================== -->
+
+
+
+
+      <!--  ====================Skills==================== -->
+
+      <div class="hero bg-base-200 min-w-96 flex justify-center">
+          <div class="hero-content flex flex-col justify-self-start ">
+            <h3 class="text-2xl font-bold ml-2">Skills</h3>
+            <div class="  flex justify-self-start  flex-col lg:flex-row">
+
+              
+
+                  <!-- a -->
+                  <div class="overflow-x-auto">
+                    <table class="table table-zebra">
+                      <!-- head -->
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>Name</th>
+                          <th>Job</th>
+                          <th>Favorite Color</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- row 1 -->
+                        <tr>
+                          <th>1</th>
+                          <td>Cy Ganderton</td>
+                          <td>Quality Control Specialist</td>
+                          <td>Blue</td>
+                        </tr>
+                        <!-- row 2 -->
+                        <tr>
+                          <th>2</th>
+                          <td>Hart Hagerty</td>
+                          <td>Desktop Support Technician</td>
+                          <td>Purple</td>
+                        </tr>
+                        <!-- row 3 -->
+                        <tr>
+                          <th>3</th>
+                          <td>Brice Swyre</td>
+                          <td>Tax Accountant</td>
+                          <td>Red</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- a -->
+
+                
+        
+
+
+            </div>
+          </div>
+
+
+
+        
+      </div>
+
+
+     
+
+
+
+
+      <!--  ====================END Skills==================== -->
+
+
+
+
+
+
+      <!--  ====================FOOOTTER==================== -->
+      <footer class="footer p-10 bg-base-200 text-base-content">
+        <nav>
+          <header class="footer-title">
+            <span class="loading loading-ring loading-xs"></span>
+            <span>Not Playing – Spotify</span>
+          </header> 
+          <a class="link link-hover">Portfolio</a>
+          <a class="link link-hover">Blog</a>
+          <a class="link link-hover">Gallery</a>
+          <a class="link link-hover">About</a>
+          <a class="link link-hover">Contact</a>
+        </nav> 
+        
+      </footer> 
+      <footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
+        <aside class="items-center grid-flow-col">
+          <svg width="44" height="44" viewBox="0 0 530 530" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="188" y="107" width="27" height="271" fill="#EFEFEF"/>
+            <rect x="214" y="116" width="10" height="27" fill="#EFEFEF"/>
+            <rect x="233" y="134" width="10" height="27" fill="#EFEFEF"/>
+            <rect x="224" y="125" width="10" height="27" fill="#EFEFEF"/>
+            <rect x="242" y="143" width="10" height="27" fill="#EFEFEF"/>
+            <rect width="10" height="27" transform="matrix(-1 0 0 1 316 116)" fill="#EFEFEF"/>
+            <rect width="10" height="27" transform="matrix(-1 0 0 1 297 134)" fill="#EFEFEF"/>
+            <rect width="10" height="27" transform="matrix(-1 0 0 1 306 125)" fill="#EFEFEF"/>
+            <rect width="10" height="27" transform="matrix(-1 0 0 1 288 143)" fill="#EFEFEF"/>
+            <rect x="279" y="161" width="9" height="9" fill="#9A9A9A"/>
+            <rect x="279" y="152" width="9" height="9" fill="#EC273F"/>
+            <rect width="9" height="9" transform="matrix(1 0 0 -1 188 279)" fill="#6B2643"/>
+            <rect width="9" height="9" transform="matrix(1 0 0 -1 188 270)" fill="#9A9A9A"/>
+            <rect width="9" height="9" transform="matrix(1 0 0 -1 188 242)" fill="#9A9A9A"/>
+            <rect x="197" y="215" width="18" height="9" transform="rotate(90 197 215)" fill="#EC273F"/>
+            <rect x="188" y="206" width="9" height="9" fill="#EC273F"/>
+            <rect x="197" y="206" width="9" height="9" fill="#EC273F"/>
+            <rect x="197" y="197" width="9" height="9" fill="#AC2847"/>
+            <rect x="188" y="197" width="9" height="9" fill="#6B2643"/>
+            <rect x="188" y="188" width="9" height="9" fill="#EC273F"/>
+            <rect x="197" y="170" width="18" height="9" transform="rotate(90 197 170)" fill="#FFE3E3"/>
+            <rect x="188" y="170" width="27" height="9" transform="rotate(-90 188 170)" fill="#FF7373"/>
+            <rect x="315" y="107" width="27" height="163" fill="#EFEFEF"/>
+            <rect x="315" y="287" width="27" height="119" fill="#EFEFEF"/>
+            <rect x="214" y="279" width="10" height="27" fill="#EFEFEF"/>
+            <rect x="224" y="288" width="10" height="27" fill="#EFEFEF"/>
+            <rect x="233" y="297" width="10" height="27" fill="#EFEFEF"/>
+            <rect x="242" y="306" width="10" height="27" fill="#EFEFEF"/>
+            <rect x="234" y="297" width="9" height="9" fill="#858585"/>
+            <rect x="278" y="342" width="10" height="27" fill="#EFEFEF"/>
+            <rect x="297" y="360" width="10" height="27" fill="#EFEFEF"/>
+            <rect x="288" y="351" width="10" height="27" fill="#EFEFEF"/>
+            <rect x="306" y="369" width="10" height="27" fill="#EFEFEF"/>
+            <rect x="252" y="61" width="27" height="408" fill="#EFEFEF"/>
+            <rect x="252" y="61" width="18" height="9" fill="#AC2847"/>
+            <rect x="261" y="70" width="18" height="9" transform="rotate(90 261 70)" fill="#EC273F"/>
+            <rect x="261" y="61" width="9" height="9" fill="#6B2643"/>
+            <rect x="252" y="98" width="9" height="9" fill="#EC273F"/>
+            <rect x="252" y="107" width="9" height="9" fill="#6B2643"/>
+            <rect x="252" y="116" width="9" height="9" fill="#FF7373"/>
+            <rect x="261" y="125" width="18" height="9" transform="rotate(90 261 125)" fill="#FFE3E3"/>
+            <rect x="342" y="107" width="18" height="9" transform="rotate(90 342 107)" fill="#EC273F"/>
+            <rect x="333" y="125" width="9" height="9" fill="#AC2847"/>
+            <rect x="342" y="134" width="18" height="9" transform="rotate(90 342 134)" fill="#FFE3E3"/>
+            <rect x="270" y="161" width="9" height="9" fill="#6B2643"/>
+            <rect x="279" y="170" width="18" height="9" transform="rotate(90 279 170)" fill="#AC2847"/>
+            <rect x="270" y="188" width="9" height="9" fill="#EC273F"/>
+            <rect x="197" y="107" width="18" height="9" transform="rotate(90 197 107)" fill="#AC2847"/>
+            <rect x="315" y="261" width="9" height="9" fill="#AC2847"/>
+            <rect x="324" y="261" width="9" height="9" fill="#9A9A9A"/>
+            <rect x="324" y="243" width="18" height="9" transform="rotate(90 324 243)" fill="#EC273F"/>
+            <rect x="324" y="225" width="18" height="9" transform="rotate(90 324 225)" fill="#9A9A9A"/>
+            <rect x="315" y="287" width="9" height="9" fill="#6B2643"/>
+            <rect x="324" y="287" width="9" height="9" fill="#AC2847"/>
+            <rect x="333" y="287" width="9" height="9" fill="#EC273F"/>
+            <rect x="324" y="296" width="18" height="9" transform="rotate(90 324 296)" fill="#AC2847"/>
+            <rect x="324" y="296" width="9" height="9" fill="#EC273F"/>
+            <rect x="324" y="314" width="27" height="9" transform="rotate(90 324 314)" fill="#EC273F"/>
+            <rect x="315" y="350" width="9" height="9" fill="#EC273F"/>
+            <rect x="333" y="397" width="9" height="9" fill="#EC273F"/>
+            <rect x="333" y="388" width="9" height="9" fill="#858585"/>
+            <rect x="333" y="379" width="9" height="9" fill="#9A9A9A"/>
+            <rect x="333" y="370" width="9" height="9" fill="#AC2847"/>
+            <rect x="333" y="361" width="9" height="9" fill="#6B2643"/>
+            <rect x="279" y="451" width="18" height="9" transform="rotate(90 279 451)" fill="#AC2847"/>
+            <rect x="261" y="451" width="9" height="9" fill="#AC2847"/>
+            <rect x="270" y="469" width="18" height="9" transform="rotate(-180 270 469)" fill="#EC273F"/>
+            <rect x="279" y="451" width="18" height="9" transform="rotate(-180 279 451)" fill="#EC273F"/>
+            <rect width="18" height="9" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 279 442)" fill="#AC2847"/>
+            <rect width="9" height="9" transform="matrix(1 0 0 -1 261 442)" fill="#AC2847"/>
+            <rect x="270" y="415" width="9" height="9" fill="#6B2643"/>
+            <rect x="270" y="415" width="18" height="9" transform="rotate(-90 270 415)" fill="#EC273F"/>
+            <rect width="9" height="9" transform="matrix(1 0 0 -1 188 342)" fill="#AC2847"/>
+            <rect width="9" height="9" transform="matrix(1 0 0 -1 188 333)" fill="#EC273F"/>
+            <rect x="188" y="306" width="27" height="9" transform="rotate(-90 188 306)" fill="#EC273F"/>
+            <rect x="197" y="125" width="18" height="9" transform="rotate(90 197 125)" fill="#EC273F"/>
+            <rect x="252" y="306" width="9" height="9" fill="#858585"/>
+            <rect x="243" y="306" width="9" height="9" fill="#9A9A9A"/>
+            <rect x="224" y="288" width="10" height="9" fill="#6B2643"/>
+            <rect x="224" y="297" width="10" height="9" fill="#EC273F"/>
+            <rect x="252" y="297" width="9" height="9" fill="#EC273F"/>
+            <rect x="252" y="288" width="9" height="9" fill="#AC2847"/>
+            <rect x="252" y="279" width="9" height="9" fill="#858585"/>
+            </svg>
+          <p>Copyrights &copy; mnikhwan | 2020-2024. <br/>All rights reserved.</p>
+        </aside> 
+        <nav class="md:place-self-center md:justify-self-end">
+          <div class="grid grid-flow-col gap-4">
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+          </div>
+        </nav>
+      </footer>
+
+      <!--  ====================END FOOOTTER==================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script>
+        
+function doruc() {
+    var element = document.getElementById('html');
+  var elm = element.hasAttribute('data-theme');
+    if (document.getElementById ('darkmode').checked) {
+        element.setAttribute('data-theme', 'cupcake');
+    } else {
+      element.removeAttribute('data-theme');}
+  }
+
+
+      </script>
+</body>
+</html>

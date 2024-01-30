@@ -10,3 +10,9 @@ Berikut adalah list url yang langsung mengarah ke github-pages project:
   - [04-tgs-webStatic_21550010](https://mnikhwan.github.io/PraktekKuliah/04-tgs-webStatic/)
 - [UAS Media Pembelajaran | Tata Surya - UnResponsive] - UnResponsive:
   - [UAS Media Pembelajaran | Tata Surya - UnResponsive](https://mnikhwan.github.io/PraktekKuliah/tata-surya/)
+
+```===============================================================================```
+- [Portfolio | DaisyUI, TailwindCSS] - Responsive:
+  - [Portfolio | DaisyUI, TailwindCSS - Responsive](https://mnikhwan.github.io/PraktekKuliah/Portfolio-DaisyUI-TailwindCSS/)
+  - <a href="https://mnikhwan.github.io/PraktekKuliah/Portfolio-DaisyUI-TailwindCSS/" target="_blank">[Click Me!]</a>
+  
